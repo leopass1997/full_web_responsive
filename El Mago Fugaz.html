@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>El Mago Fugaz</title>
+    <style>
+        .trailer-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .trailer-container iframe,
+        .trailer-container object,
+        .trailer-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-animate {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">¡El Mago Fugaz!</h1>
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <img src="Pelicula4.jpg" class="card-img-top" alt="El Mago Fugaz">
+                    <div class="card-body">
+                        <p class="card-text">Ronaldinho es sinónimo de sonrisa, de alegría, 
+                            de fiesta. De ser feliz y hacer felices a los demás. Cuando el 
+                            Barcelona fichó al brasileño, en el verano de 2003, los azulgrana 
+                            estaban pasando por momentos complicados. Ronaldinho, con su fútbol 
+                            y su manera de ser, transformó el club. Dos ligas, una Champions, 
+                            un Balón de Oro y varias noches para la historia forman parte de su legado. 
+                            Pero esa historia de amor fue, tal vez, demasiado corta.
+                             Cinco temporadas de azulgrana, las dos últimas cuestionado. 
+                             Después, varias experiencias en diferentes equipos y un periplo 
+                             vital que le llevó a una cárcel de Paraguay. Ronaldinho estaba 
+                             llamado a marcar una época, pero no lo hizo. ¿Duró demasiado poco?
+                              ¿O, simplemente, eligió vivir a su manera?</p>
+                        <div class="trailer-container">
+                            <iframe src="https://www.youtube.com/watch?v=5v_X3jxr_R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <a href="index.html" class="btn btn-primary btn-animate mt-3">Ver Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

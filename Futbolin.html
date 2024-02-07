@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Futbolin</title>
+    <style>
+        .trailer-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .trailer-container iframe,
+        .trailer-container object,
+        .trailer-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-animate {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">¡Futbolin!</h1>
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <img src="Pelicula3.jpg" class="card-img-top" alt="Futbolin">
+                    <div class="card-body">
+                        <p class="card-text">Futbolin, es una película coproducida por España y Argentina 
+                            de animación en 3D de 2013 dirigida por Juan José Campanella. Está inspirada 
+                            en el cuento Memorias de un wing derecho, del escritor argentino Roberto Fontanarrosa. 
+                            Eduardo Sacheri, que trabajó con el director en el guion de El secreto de sus ojos,
+                             estuvo a cargo de la adaptación junto a Campanella, Gastón Gorali y Axel Kuschevatzky 
+                             también productores del filme. Fue estrenada, en Argentina, el 18 de julio de 2013. 
+                             Fue la primera película de animación que abrió el Festival de Cine de San Sebastián, 
+                             el 20 de septiembre del mismo año.</p>
+                        <div class="trailer-container">
+                            <iframe src="https://www.youtube.com/watch?v=75OQ_4SZlhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <a href="index.html" class="btn btn-primary btn-animate mt-3">Ver Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
