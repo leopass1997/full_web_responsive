@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/MerriweatherSans-VariableFont_wght.ttf);
+}
+
+.formulario {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario > input {
+  width: 1020px;
+  height: 50px;
+  margin: 15px auto;
+  margin-bottom: 35px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.funcion {
+  margin: 30px 0;
+}
+
+.datos-personales {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.datos-pago {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.funcion h2 {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.funcion .pelicula {
+  display: flex;
+  justify-content: center;
+}
+
+.funcion .pelicula input {
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.datos-pago h2 {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.datos-pago > input {
+  width: 1020px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.datos-pago .tarjeta {
+  display: flex;
+  justify-content: center;
+}
+
+.datos-pago .tarjeta input {
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.datos-personales h2 {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.datos-personales > input {
+  width: 1020px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.datos-personales .nombre {
+  display: flex;
+  justify-content: center;
+}
+
+.datos-personales .nombre input {
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #212529;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.redes-sociales,
+.nosotros,
+.recomendacion {
+  padding: 40px 0;
+}
+
+.redes-sociales .empresa {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.redes-sociales .empresa h2 {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 17px;
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+}
+
+.redes-sociales .empresa img {
+  width: 75px;
+  height: 75px;
+}
+
+.iconos-sociales img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.nosotros h2 {
+  color: #fff;
+  font-size: 16px;
+}
+
+.nosotros a {
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.3);
+  font-size: 16px;
+}
+
+.recomendacion form h2 {
+  color: #fff;
+  font-size: 16px;
+}
+
+.recomendacion form input {
+  margin: 10px 0;
+}
+
+.recomendacion form input[type="text"] {
+  background-color: #212529;
+  border: none;
+  border-bottom: 1px solid #a6a8aa;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.recomendacion form textarea {
+  background-color: #212529;
+  border: 1px solid #393a3b;
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.recomendacion form input[type="button"] {
+  background-color: #393a3b;
+  padding: 5px 10px;
+  border: 1px solid #393a3b;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+a.nav-link {
+  cursor: pointer;
+}
